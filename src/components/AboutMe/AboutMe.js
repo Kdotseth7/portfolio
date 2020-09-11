@@ -13,29 +13,27 @@ const AboutMe = () => {
         'I am looking for an exciting opportunity to hone my skills in a dynamic organization where I can contribute towards developing something which makes a difference to the society.';
     return(
         <MDBJumbotron fluid>
-            <MDBContainer>
-                <div className='flex text-dark'>
-                    <div style={{height: 'auto', width: '1250px', marginRight: '60px'}}>
-                        <h1 className='f1 mb4' style={{fontWeight: '450'}}>About Me</h1>
-                        <div style={{textAlign: "left"}}>
-                            {aboutMeText}
-                        </div>
+            <MDBContainer className='text-dark'>
+                <div>
+                    <h1 className='f1 mb4' style={{fontWeight: '450'}}>About Me</h1>
+                    <div className='f4' style={{fontWeight: '450'}}>
+                        {aboutMeText}
                     </div>
-                    <div className='flex flex-wrap'>
-                        <h1 className='f1' style={{marginLeft: '90px'}}>Core Competencies</h1>
-                        <div className='flex flex-wrap'>
-                            {
-                                competencies.map(comp => {
-                                    return(
-                                        <Competency competency={comp.competency}
-                                                    pieColor={comp.pieColor}
-                                                    startAngle={comp.startAngle}
-                                                    endAngle={comp.endAngle}
-                                        />
-                                    )
-                                })
-                            }
-                        </div>
+                </div>
+                <div className='flex-wrap'>
+                    <h1 className='f1 mt5 mb2' style={{fontWeight: '400'}}>Core Competencies</h1>
+                    <div className='flex flex-wrap justify-content-center'>
+                        {
+                            competencies.map(comp => {
+                                return(
+                                    <Competency competency={comp.competency}
+                                                pieColor={comp.pieColor}
+                                                startAngle={comp.startAngle}
+                                                endAngle={comp.endAngle}
+                                    />
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </MDBContainer>

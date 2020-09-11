@@ -1,10 +1,11 @@
 import React from "react";
+import './WorkExperienceCard.css';
 
 const WorkExperienceCard = ( {cardImage, imgLink, cardText, tenure, position} ) => {
     const cardTextLines = cardText.split(".");
 
     return(
-        <div className="card mb-4 grow w-20">
+        <div className="card mb-4 grow">
 
             {/*CARD IMAGE*/}
             <div className="view overlay">
@@ -36,7 +37,7 @@ const WorkExperienceCard = ( {cardImage, imgLink, cardText, tenure, position} ) 
                         {tenure}
                     </p>
                     <br/>
-                    <ul style={{listStyleType: "square", textAlign: "left"}}>
+                    <ul className='card-text-style'>
                         {
                             cardTextLines.map((line, index) => {
                                 return(

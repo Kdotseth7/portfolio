@@ -5,8 +5,8 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 const Intro = () => {
     return(
         <div className='intro-wrapper'>
-            <div>
-                <div className='intro-font' style={{marginTop: '300px', marginRight: '180px'}}>
+            <div className="mt7 details-wrapper">
+                <div className='intro-font'>
                     <h1 style={{fontSize: '80px', fontWeight: '100'}}>
                         Hi, I am
                         <br/>
@@ -15,8 +15,8 @@ const Intro = () => {
                     <h3 style={{fontSize: '40px', fontWeight: '400'}}>
                         Fullstack Developer
                     </h3>
-                    <h3 className='mt3 pt2' style={{fontSize: '30px', fontWeight: '200', display: 'flex', justifyContent: 'flex-start'}}>Join me here
-                        <div className='ml3 mb2'>
+                    <h3 className='mt3 pt2' style={{fontSize: '30px', fontWeight: '200'}}>Join me here:
+                        <div className='mb5'>
                             <SocialIcons/>
                         </div>
                     </h3>

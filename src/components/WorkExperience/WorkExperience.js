@@ -14,27 +14,26 @@ const WorkExperience = () => {
                 <AboutMe/>
             </div>
 
-            <div id={'work-experience'}>
+            <div id={'work-experience'} style={{flexWrap: "wrap"}}>
                 <h2 className="card-title h2" style={{fontWeight: '700', fontSize: '2.5em'}}>Work Experience</h2>
                 <p className="my-4" style={{fontWeight: '400', fontSize: '1.5em'}}>PROFESSIONAL PATH</p>
 
-                <div className='flex flex-center'>
-                    {/*CARD DECK*/}
-                    <div className="card-deck w-80">
-                        {
-                            /*CARDS*/
-                            cardsDataArray.map(cardData => {
-                                return(
-                                    <WorkExperienceCard
-                                        cardImage={cardData.cardImage}
-                                        imgLink={cardData.imgLink}
-                                        cardText={cardData.cardText}
-                                        tenure={cardData.tenure}
-                                        position={cardData.position}/>
-                                );
-                            })
-                        }
-                    </div>
+                {/*CARD DECK*/}
+                <div className="card-deck">
+                    {
+                        /*CARDS*/
+                        cardsDataArray.map(cardData => {
+                            return(
+                                <WorkExperienceCard
+                                    cardImage={cardData.cardImage}
+                                    imgLink={cardData.imgLink}
+                                    cardText={cardData.cardText}
+                                    tenure={cardData.tenure}
+                                    position={cardData.position}
+                                />
+                            );
+                        })
+                    }
                 </div>
 
                 <hr className="my-4 rgba-white-light" />

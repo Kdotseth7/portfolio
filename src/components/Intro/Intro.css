@@ -5,3 +5,8 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.details-wrapper {
+    flex-wrap: wrap;
+    margin-right: 80px;
+}

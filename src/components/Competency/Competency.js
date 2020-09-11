@@ -7,7 +7,7 @@ const Competency = ({competency, pieColor, startAngle, endAngle}) => {
     ];
 
     return(
-        <PieChart width={200} height={200}>
+        <PieChart width={180} height={190}>
             <Pie
                 data={data}
                 cx={100}
@@ -20,7 +20,7 @@ const Competency = ({competency, pieColor, startAngle, endAngle}) => {
                 paddingAngle={5}
                 dataKey="value"
             >
-                <Label className='f5' value={competency} position="center" />
+                <Label className='f5 b' value={competency} position="center" />
                 <Cell fill={pieColor} />
             </Pie>
         </PieChart>

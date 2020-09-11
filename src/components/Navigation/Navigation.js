@@ -26,7 +26,7 @@ class Navigation extends Component {
             <div>
                 <header>
                     <Router>
-                        <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
+                        <MDBNavbar className="wrap" color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
                             <Link to="home" smooth={true} spy={true} offset={-70} duration={1000}>
                                 <img alt='home' src={homeIcon} className='dim home-icon-style'/>
                             </Link>
