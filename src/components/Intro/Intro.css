@@ -3,10 +3,11 @@
     margin: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .details-wrapper {
     flex-wrap: wrap;
-    margin-right: 80px;
+    margin-top: 200px;
+    margin-left: 80px;
 }

@@ -5,7 +5,7 @@ import SocialIcons from "../SocialIcons/SocialIcons";
 const Intro = () => {
     return(
         <div className='intro-wrapper'>
-            <div className="mt7 details-wrapper">
+            <div className="details-wrapper">
                 <div className='intro-font'>
                     <h1 style={{fontSize: '80px', fontWeight: '100'}}>
                         Hi, I am

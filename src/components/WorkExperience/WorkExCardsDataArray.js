@@ -7,23 +7,25 @@ const cardsDataArray = [
         cardImage: cvent,
         imgLink: 'https://www.cvent.com/',
         cardText: 'Currently Working on CVENT Conference Product.' +
-            'UI Automation using Selenium and JAVA.' +
-            'API Automation using ReadyAPI, Postman and Karate.' +
-            'Creating Jenkins Jobs.' +
-            'Databases: SQL, CouchBase, PostgreSQL.' +
-            'Worked with RabbitMQ',
+            'FrontEnd Development: HTML, CSS, JavaScript and React.' +
+            'BackEnd Development: NodeJS and ExpressJS.' +
+            'UI Automation Frameworks: Selenium and WDIO.' +
+            'API Automation: ReadyAPI, Postman and Karate.' +
+            'CI/CD using Jenkins.' +
+            'Databases: SQL, MongoDB, PostgreSQL.' +
+            'Well versed with Agile and Scrum Methodologies',
         tenure: ' July 2019 - Present',
         position: ' Software Development Engineer in Test(SDET)'
     },
     {
         cardImage: threeSC,
         imgLink: 'http://www.3scsolution.com/',
-        cardText: 'Created an online web application using HTML, CSS & JavaScript.' +
-            'Developed the application for verification and auditing of freight bills for Vendor and Retailers.' +
-            'Created front-end dashboard to show due payments within the current month.' +
+        cardText: 'Worked on adding a Dashboard feature to their existing application.' +
+            'Developed backend using NodeJS and ExpressJS for verification and auditing of freight bills for Vendor and Retailers.' +
+            'Created front-end dashboard using HTML, CSS, JS and React.' +
             'Created Master tabs and Report tabs for easy maneuverability within the transport management dashboard',
         tenure: ' June 2018 - July 2018',
-        position: ' Full Stack Developer Intern'
+        position: ' Software Development Intern'
     },
     {
         cardImage: teamComputers,
